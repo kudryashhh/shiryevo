@@ -1,0 +1,569 @@
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+a,p{
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman';
+    text-decoration: none;
+    font-size: 1.3vw;
+}
+
+.progylka{
+    position: absolute;
+    color: #FF0000;
+    font-family: 'BM';
+    font-style: normal;
+    text-decoration: none;
+    font-size: 1.2vw;
+    font-weight: normal;
+}
+
+h1{
+    color: #FF0000;
+    font-family: 'BM';
+    font-style: normal;
+    text-decoration: none;
+    font-size: 1.2vw;
+    font-weight: normal;
+    
+}
+
+.net{
+ position: absolute;
+ width: 100%;
+ display: none;
+}
+.net_1920{
+    position: absolute;
+ width: 100%;
+ margin-left: 1%;
+}
+
+.navbar{
+    position: relative;
+    margin-left: 1%;
+}
+
+.navbar_c{
+    display: flex;
+}
+
+.how_works{
+    margin-left: 65%;
+    z-index: 3;
+}
+
+.info, .nomad_info, .shtutt_info, .nelya_info, .roman_info, .nemetz_info, .shiryaevo_info, .volga_info, .how_info, .night_info, .colta_info, .strange_info, .cave_info,  .rock_info, .life_info,  .gosh_info, .aroundart_info, .tropa_info, .dom_info {
+    position: absolute;
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 40%;
+    height: 31vw;
+    margin-left: 1%;
+    margin-top: 1.5%;
+}
+
+
+.about_text, .nomad_show_text, .shtutt_text, .nelya_text, .roman_text, .nemetz_text, .shiryaevo_text,  .volga_text, .how_text, .night_text, .colta_text2, .strange_text2, .cave_text2, .rock_text2, .life_text2, .gosh_text2, .aroundart_text2, .tropa_text2, .dom_text2{
+    width: 80%;
+}
+
+.scroll_field{
+    position: relative;
+    
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 51vw;
+    width: 57%;
+    margin-top: 1%;
+    margin-left: 44%;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+.night{
+    position: absolute;
+    margin-left: 0%;
+    margin-top: 1%;
+    
+}
+.img_night{
+    width: 100%;
+    position: absolute;
+}
+
+.text_night{
+    margin-top: 72%;
+}
+.art_night{
+    position: absolute;
+    z-index: 2;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.colta{
+    position: absolute;
+    margin-left: 86%;
+    margin-top: 1%;
+    
+}
+.img_colta{
+    width: 100%;
+    position: absolute;
+}
+
+.text_colta{
+    margin-top: 120%;
+}
+.interview_colta{
+    position: absolute;
+    z-index: 2;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 25%;
+}
+
+.strange{
+    position: absolute;
+    margin-left: 62%;
+    margin-top: 50%;
+    
+}
+.img_strange{
+    width: 120%;
+    position: absolute;
+    margin-left: 25%;
+}
+
+.text_strange{
+    margin-top: 64%;
+    margin-left: 25%;
+    width: 100%;
+}
+.art_strange{
+    position: absolute;
+    z-index: 2;
+    margin-top: 4%;
+    margin-left: 29%;
+    width: 10%;
+}
+
+.cave{
+    position: absolute;
+    margin-left: 0%;
+    margin-top: 68%;
+    
+}
+.img_cave{
+    width: 110%;
+    position: absolute;
+    margin-left: 0%;
+}
+
+.text_cave{
+    margin-top: 63%;
+    margin-left: 0%;
+    width: 100%;
+}
+.article_cave{
+    position: absolute;
+    z-index: 2;
+    margin-top: 4%;
+    margin-left: 3%;
+    width: 12%;
+}
+
+.rock{
+    position: absolute;
+    margin-left: 65%;
+    margin-top: 75%;
+    width: 30%;
+    
+}
+.img_rock{
+    width: 98%;
+    position: absolute;
+    margin-left: 10%;
+}
+
+.text_rock{
+    margin-top: 55%;
+    margin-left: 10%;
+    width: 100%;
+}
+.art_rock{
+    position: absolute;
+    z-index: 2;
+    margin-top: 4%;
+    margin-left: 15%;
+    width: 8%;
+}
+
+.life{
+    position: absolute;
+    margin-left: 86%;
+    margin-top: 110%;
+    width: 12%;
+    
+}
+.img_life{
+    width: 100%;
+    position: absolute;
+}
+
+.text_life{
+    margin-top: 120%;
+}
+.interview_life{
+    position: absolute;
+    z-index: 2;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 25%;
+}
+
+.gosh{
+    position: absolute;
+    margin-left: 0%;
+    margin-top: 120%;
+    
+}
+.img_gosh{
+    width: 134%;
+    position: absolute;
+}
+
+.text_gosh{
+    margin-top: 96%;
+}
+.art_gosh{
+    position: absolute;
+    z-index: 2;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.aroundart{
+    position: absolute;
+    margin-left: 0%;
+    margin-top: 182%;
+    width: 32%;
+    
+}
+.img_aroundart{
+    width: 100%;
+    position: absolute;
+    margin-left: 0%;
+}
+
+.text_aroundart{
+    margin-top: 63%;
+    margin-left: 0%;
+    width: 100%;
+}
+.interview_aroundart{
+    position: absolute;
+    z-index: 2;
+    margin-top: 4%;
+    margin-left: 2%;
+    width: 10%;
+}
+
+.tropa{
+    position: absolute;
+    margin-left: 58%;
+    margin-top: 173%;
+    width: 42%;
+    
+}
+.img_tropa{
+    width: 98%;
+    position: absolute;
+    margin-left: 10%;
+}
+
+.text_tropa{
+    margin-top: 57%;
+    margin-left: 9%;
+    width: 100%;
+}
+.art_tropa{
+    position: absolute;
+    z-index: 2;
+    margin-top: -64%;
+    margin-left: 13%;
+    width: 6%;
+}
+
+.dom{
+    position: absolute;
+    margin-left: 0%;
+    margin-top: 224%;
+    width: 33%;
+    
+}
+.img_dom{
+    width: 134%;
+    position: absolute;
+}
+
+.text_dom{
+    margin-top: 96%;
+}
+.art_dom{
+    position: absolute;
+    z-index: 2;
+    margin-top: -113%;
+    margin-left: 2%;
+}
+
+
+
+
+.tags_all{
+    position: absolute;
+    margin-top: -18%;
+    margin-left: 1%;
+}
+
+.tags_main{
+    position: absolute;
+    display: flex;
+    gap: 87%;
+}
+
+
+
+.mesto{
+   cursor: pointer; 
+}
+
+.tags_main{
+    position: absolute;
+    display: flex;
+    gap: 87%;
+}
+
+.pod_mesto, .pod_chelovek, .pod_sujet {
+    position: absolute;
+    gap: 87%;
+    width: 80%;
+
+   
+}
+
+.pod_mesto.active, 
+.pod_chelovek.active, 
+.pod_sujet.active {
+    display: flex; /* Показываем только активный */
+}
+
+/* CSS */
+.mesto, .chelovek, .sujet {
+    position: relative;
+    cursor: pointer;
+    padding-bottom: 5px;
+    /* Убираем стандартное подчёркивание, если это ссылки */
+    text-decoration: none;
+}
+
+/* Подчёркивание при наведении */
+.mesto:hover::after,
+.chelovek:hover::after,
+.sujet:hover::after {
+    content: '';
+    position: absolute;
+    top: 80%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #FF0000; /* Цвет подчёркивания */
+}
+
+/* Подчёркивание при активном состоянии (когда открыт блок) */
+.mesto.active::after,
+.chelovek.active::after,
+.sujet.active::after {
+    content: '';
+    position: absolute;
+    top: 80%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #ff0000; /* Цвет подчёркивания */
+}
+
+/* Можно объединить в один селектор */
+.mesto:hover::after,
+.chelovek:hover::after,
+.sujet:hover::after,
+.mesto.active::after,
+.chelovek.active::after,
+.sujet.active::after {
+    content: '';
+    position: absolute;
+    top: 80%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #ff0000;
+}
+
+/* Добавляем archive в список кнопок с подчёркиванием */
+.mesto, .chelovek, .sujet, .archive, .shiryaevo, .volga, .nelya, .roman, .nemetz, .nomad, .shtutt, .nomad_show {
+    cursor: pointer;
+    border: none;
+    background: none;
+    transition: color 0.3s ease;
+}
+
+.mesto::after, .chelovek::after, .sujet::after,
+ .shiryaevo::after, .volga::after, .nelya::after, 
+.roman::after, .nemetz::after, .nomad::after, .shtutt::after {
+
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #ff0000;
+    
+}
+
+/* При наведении и активном состоянии */
+.mesto:hover::after, .chelovek:hover::after, .sujet:hover::after,
+.archive:hover::after, .shiryaevo:hover::after, .volga:hover::after, 
+.nelya:hover::after, .roman:hover::after, .nemetz:hover::after, 
+.nomad:hover::after, .shtutt:hover::after,
+.mesto.active::after, .chelovek.active::after, .sujet.active::after,
+.archive.active::after, .shiryaevo.active::after, .volga.active::after,
+.nelya.active::after, .roman.active::after, .nemetz.active::after,
+.nomad.active::after, .shtutt.active::after, .how_works.active::after{
+    width: 100%;
+}
+
+/* Все панели включая info */
+.pod_mesto, .pod_chelovek, .pod_sujet,
+.info, .shiryaevo_info, .volga_info, .nelya_info,
+.roman_info, .nemetz_info, .nomad_info, .shtutt_info, .how_info,
+.night_info, .colta_info, .strange_info, .cave_info,
+.rock_info, .life_info, .gosh_info,  .aroundart_info,
+.tropa_info, .dom_info { 
+    display: none;
+}
+
+.night_img2, .rock_img2, .gosh_img2, .tropa_img2{
+    width: 103%;
+}
+.text_night2, .text_rock2, .text_gosh2, .text_tropa2{
+    margin-top: 1%;
+}
+
+.text_link{
+    color: #FF0000;
+    text-decoration: underline;
+}
+
+
+.info.active, .shiryaevo_info.active, .volga_info.active, 
+.nelya_info.active, .roman_info.active, .nemetz_info.active,
+.nomad_info.active, .shtutt_info.active, .how_info.active,
+.night_info.active, .colta_info.active, .strange_info.active,
+.cave_info.active, .rock_info.active, .life_info.active,
+.gosh_info.active, .aroundart_info.active, .tropa_info.active,
+.dom_info.active{
+    display: block;
+}
+
+.pod_mesto.active{
+    display: flex;
+    gap: 87%;
+    margin-top: 50%;
+    width: 50%;
+    position: relative;
+}
+
+.pod_chelovek.active{
+    display: flex;
+    gap: 28%;
+    margin-top: 15%;
+    width: 50%;
+    position: relative;
+}
+
+.pod_sujet.active{
+display: flex;
+    gap: 28%;
+    margin-top: 13%;
+    width: 50%;
+    position: relative;
+}
+
+.how_signs{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: -57%;
+}
+
+.how_signs_text{
+    position: absolute;
+    margin-top: 9%;
+    margin-left: -50%;
+}
+
+.poisk{
+    position: absolute;
+    margin-left: 1%;
+    margin-top: -2.5%;
+    width: 41%;
+}
+
+form{
+    position: absolute;
+    margin-top: -5.5%;
+    margin-left: 2%;
+    width: 90%;
+}
+
+input{
+    font-family: 'BM';
+    font-size: 1.2vw;
+    outline: none;
+    border: none;
+}
+
+::placeholder{
+    color: #FF0000;
+    opacity: 0.5;
+    border: none;
+    border-style: none;
+}
+
+button{
+    font-family: 'BM';
+    font-size: 1.2vw;
+    border: none;
+    background-color: white;
+    color: #FF0000;
+    margin-left: 42%;
+}
+
+input:focus, textarea:focus, select:focus {
+    outline: none;
+    color: #FF0000;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+    display: none;
+
+
+
+.poisk_bar{
+    width: 100%;
+}
+}
