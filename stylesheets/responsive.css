@@ -1,4 +1,4 @@
-@media screen and (min-width: 1920px){
+@media screen and (max-width: 1921px){
     .net{
  position: absolute;
  width: 100%;
@@ -548,7 +548,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 }
-    @media screen and (min-width: 1440px)and (max-width: 1919px){
+    @media screen and (max-width: 1441px){
         a,p{
             font-size: 1.4vw;
         }
@@ -1111,7 +1111,7 @@ input[type="search"]::-webkit-search-results-decoration {
     }
 
 
-    @media screen and (min-width: 1366px)and (max-width: 1439px){
+    @media screen and (max-width: 1367px){
        a,p{
             font-size: 1.4vw;
         }
@@ -1686,7 +1686,7 @@ input[type="search"]::-webkit-search-results-decoration {
     }
         
     
-    @media screen and (min-width: 1024px)and (max-width: 1365px){
+    @media screen and (max-width: 1025px){
         a,p{
             font-size: 1.4vw;
         }
@@ -2259,7 +2259,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
     }
     
-    @media screen and (min-width: 768px)and (max-width: 1023px){
+    @media screen and (max-width: 769px){
          a,p{
             font-size: 2.5vw;
         }
@@ -2843,7 +2843,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 }
     }
-    @media screen and (min-width: 414px)and (max-width: 767px){
+    @media screen and (max-width: 415px){
         a,p{
             font-size: 4vw;
         }
@@ -3429,7 +3429,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 }   
     }
-    @media screen and (min-width: 360px)and (max-width: 413px){ 
+    @media screen and (max-width: 361px){ 
        a,p{
             font-size: 3.8vw;
         }
@@ -4015,6 +4015,6 @@ input[type="search"]::-webkit-search-results-decoration {
 }     
     }
     
-    @media screen and (min-width: 0px)and (max-width: 360px){ 
+    @media screen and (max-width: 0px){ 
       
     }
